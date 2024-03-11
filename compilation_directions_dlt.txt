@@ -1,0 +1,24 @@
+# Make the following directories in the same file path as the source codes:
+
+mkdir prop
+mkdir txt
+mkdir prop
+mkdir Davg
+mkdir xyz
+----------------------------------------------------------------------------------
+
+# Configure compiler:
+
+source /opt/intel/oneapi/setvars.sh
+----------------------------------------------------------------------------------
+
+# Once the Intel C compiler and Intel MKL libraries are installed, compile with:
+
+icc -O3 -qopenmp -mkl -o run.out main.c
+----------------------------------------------------------------------------------
+
+# Run the code from the same directory using the executable with the following parameters: 
+
+N Ncharges Wi dt lambda_d(Debye Length) barrier(Adjacent Hop Barrier) barrier2(Non-adjacent Hop Barrier) tr(trajectory #) it_start(1st Iteration) it_end(Final Iteration)
+
+./run.out 100 1 0.0 0.0005 10.0 3 3 1 0 2
