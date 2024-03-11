@@ -1,0 +1,17 @@
+tplgy = linear
+flowType = 1
+EV = LJ
+epsilon = 0.1
+spring = Hookean
+qmax = 3.0
+kappas = 200
+kappab = 0
+srpy = 25
+over_write = 1
+tmax = 52000000
+lambda_b = 3.59
+chargehop_type = 1
+calcmsd = 1
+MStep = 1
+tau = 175.0
+restart = 1
