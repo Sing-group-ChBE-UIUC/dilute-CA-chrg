@@ -21,4 +21,4 @@ icc -O3 -qopenmp -mkl -o run.out main.c
 
 N Ncharges Wi dt lambda_d(Debye Length) barrier(Adjacent Hop Barrier) barrier2(Non-adjacent Hop Barrier) tr(trajectory #) it_start(1st Iteration) it_end(Final Iteration)
 
-./run.out 100 1 0.0 0.0005 10.0 3 3 1 0 2
+ex: ./run.out 100 1 0.0 0.0005 10.0 3 3 1 0 2
