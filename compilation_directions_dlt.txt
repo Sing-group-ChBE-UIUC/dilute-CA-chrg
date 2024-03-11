@@ -2,7 +2,6 @@
 
 mkdir prop
 mkdir txt
-mkdir prop
 mkdir Davg
 mkdir xyz
 ----------------------------------------------------------------------------------
